@@ -4,19 +4,19 @@
 
 <!-- breadcrumbarea__section__start -->
 
-<div class="breadcrumbarea" style="background-image: url('{{asset('assets/img/infobanner/infobanner-7.jpg')}}')">
+<div class="breadcrumbarea" style="background-image: url('{{asset('assets/img/infobanner/infobanner-3.jpg')}}')">
     <div class="dark-overlay"></div>
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
                 <div class="breadcrumb__content__wraper" data-aos="fade-up">
                     <div class="breadcrumb__title">
-                        <h2 class="heading text-white">Enlight Institute of Para Medical Sciences</h2>
+                        <h2 class="heading text-white">Sri Shantidhama School Of Nursing</h2>
                     </div>
                     <div class="breadcrumb__inner">
                         <ul>
                             <li><a href="/">Home</a></li>
-                            <li>Enlight Institute of Para Medical Sciences</li>
+                            <li>Sri Shantidhama School Of Nursing</li>
                         </ul>
                     </div>
                 </div>
@@ -26,7 +26,6 @@
             </div>
         </div>
     </div>
-
 
 </div>
 <!-- breadcrumbarea__section__end-->
@@ -45,7 +44,7 @@
                 <div class="blog__details__content__wraper">
                     <div class="course__button__wraper" data-aos="fade-up">
                         <div class="course__button">
-                            <a target="_blank" href="Sowrabha-Prospectus.pdf"><i class="icofont-file-document"></i> View
+                        <a target="_blank" href="Sowrabha-Prospectus.pdf"><i class="icofont-file-document"></i> Download
                                 Prospectus</a>
                         </div>
                         <div class="course__date">
@@ -53,12 +52,13 @@
                         </div>
                     </div>
                     <div class="course__details__heading" data-aos="fade-up">
-                        <h3>About Enlight Institute of Para Medical Sciences</h3>
+                        <h3>About Sri Shantidhama School Of Nursing</h3>
                     </div>
                     <div class="course__details__paragraph text-justify" data-aos="fade-up">
-                        <p>The Enlight Education Trust started in the year of Nov 2015 by keeping a broad objective of imparting high-quality education through improving oneself and the nation at large. Through well-organized packages, we are successful in providing standard education to the students. Providing trustworthy services with minimum expense was always our trademark … We worked to enlighten our students’ lives by making valuable contributions to their academic, and non-academic side by providing assistance in their studies, getting better placements, and allover bringing them as useful citizens to the nation. All this we made real only by the coordinated practices, having experienced faculties, and putting 100% loyalty into work.. that’s why we believe together we can succeed
+                        <p>Welcome to Shantidhama College of Nursing In an era of stiff competition, success can only be achieved if one makes the right kind of endeavor at the right time and in the right direction. Shantidhama College of Nursing have been established with a view to produce qualified, and efficient nurses for a new tomorrow in the ever changing competitive world of today. Given the paradigm shift which the health care sector is experiencing, nursing science probably represents the most ideal field for heath care to innovate for it is a domain where there is a constant need to change with the times and continuously review, analyze and upgrade competencies in the profession. Our primary goal is to offer the best EDUCATION AND CLINICAL TRAINING possible in Nursing. We are offering professional diploma, bachelor’s degree, and post graduate degree in Nursing. Affiliated to RGUHS and approved by KNC, INC New Delhi & Govt.of Karnataka.
                         </p>
                     </div>
+
                     <div class="row align-items-center">
                         <div class="col-sm-12 col-md-6">
                             <div class="course__details__wraper" data-aos="fade-up">
@@ -170,6 +170,11 @@
         </div>
     </div>
 </div>
+<!-- <script>
+   document.getElementById('downloadBtn').addEventListener('click', function() {
+            window.location.href = "{{ route('download.pdf') }}";
+        });
+</script> -->
 <!-- bsc-nursing__end -->
 
 

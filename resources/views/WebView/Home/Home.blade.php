@@ -2,111 +2,6 @@
 
 @section('webContent')
 
-    <!-- header section end -->
-
-    <!-- Mobile Menu Start Here -->
-    <div class="mobile-off-canvas-active">
-        <a class="mobile-aside-close"><i class="icofont  icofont-close-line"></i></a>
-        <div class="header-mobile-aside-wrap">
-            <div class="mobile-menu-wrap headerarea">
-
-                <div class="mobile-navigation">
-
-                    <nav>
-                        <ul class="mobile-menu">
-
-                            <li>
-                                <a href="home.html">Home</a>
-                            </li>
-
-                            <li>
-                                <a href="about.html">About</a>
-                            </li>
-
-                            <li class="menu-item-has-children"><a href="javascript:void(0);">Courses</a>
-                                <ul class="dropdown">
-                                    <li><a href="/nursing">Nursing</a></li>
-                                    <li><a href="/paramedicals" >Paramedical</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="menu-item-has-children"><a href="javascript:void(0);">Admissions</a>
-                                <ul class="dropdown">
-                                    <li><a href="javascript:void(0);">Online Admission</a></li>
-                                    <li><a href="javascript:void(0);">Admission Cell</a></li>
-                                    <li><a href="javascript:void(0);">Application Form</a></li>
-                                    <li><a href="javascript:void(0);">Download Prospectus</a></li>
-                                    <li><a href="javascript:void(0);">Pay Online</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="menu-item-has-children"><a href="javascript:void(0);">Institutions</a>
-                                <ul class="dropdown">
-                                    <li><a href="javascript:void(0);">Sowrabha Institute of Nursing Sciences</a>
-                                    </li>
-                                    <li><a href="javascript:void(0);">Enlight Institute of Para Medical Sciences</a>
-                                    </li>
-                                    <li><a href="javascript:void(0);">Enlight School of Nursing</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="menu-item-has-children"><a href="javascript:void(0);">Campus</a>
-                                <ul class="dropdown">
-                                    <li><a href="javascript:void(0);">Overview</a>
-                                    </li>
-                                    <li><a href="javascript:void(0);">Hostel</a>
-                                    </li>
-                                    <li><a href="javascript:void(0);">Sports</a></li>
-                                    <li><a href="gallery.html">Gallery</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="facilities.html">Facilities</a>
-                            </li>
-
-                            <li>
-                                <a href="scholarship.html">Scholarship</a>
-                            </li>
-
-                            <li>
-                                <a href="contact.html">Contact</a>
-                            </li>
-
-                        </ul>
-                    </nav>
-
-                </div>
-
-            </div>
-            <div class="mobile-curr-lang-wrap">
-                <div class="single-mobile-curr-lang">
-                    <a class="mobile-account-active" href="#">Logins <i class="icofont-thin-down"></i></a>
-                    <div class="lang-curr-dropdown account-dropdown-active">
-                        <ul>
-                            <li><a href="javascript:void(0);">Student Login</a></li>
-                            <li><a href="javascript:void(0);">Online Admission</li>
-                            <li><a href="javascript:void(0);">Enquiry Now</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="mobile-social-wrap">
-                <a class="facebook" target="_blank" href="https://www.facebook.com/enlightgroup2020"><i class="icofont icofont-facebook"></i></a>
-                <a class="twitter" target="_blank" href="https://x.com/of_enlight?t=IIT52UV_BZ1hzOkmeuhHGQ&s=08"><i class="icofont icofont-twitter"></i></a>
-                <a class="instagram" target="_blank" href="https://www.instagram.com/enlight_group?igsh=Z2Foc3c4b2hhOTkz"><i class="icofont icofont-instagram"></i></a>
-            </div>
-        </div>
-    </div>
-    <!-- Mobile Menu end Here -->
-
-    <!-- theme fixed shadow -->
-    <div>
-        <div class="theme__shadow__circle"></div>
-        <div class="theme__shadow__circle shadow__right"></div>
-    </div>
-    <!-- theme fixed shadow -->
-
     <!-- herobannerarea__section__start -->
     <div class="herobannerarea herobannerarea__2 herobannerarea__university">
 
@@ -135,7 +30,7 @@
                                         <p>Lorem Ipsum is simply dummy text of the printing typesetting.</p>
                                     </div> -->
                                     <div class="hreobannerarea__button__2">
-                                        <a class="default__button" href="javascript:void(0);">Know More</a>
+                                        <a class="default__button" target="_blank" href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry Now</a>
                                     </div>
 
                                 </div>
@@ -163,7 +58,7 @@
                                     </div>
 
                                     <div class="hreobannerarea__button__2">
-                                        <a class="default__button" href="javascript:void(0);">Know More</a>
+                                        <a class="default__button" target="_blank" href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry Now</a>
                                     </div>
 
                                 </div>
@@ -193,7 +88,7 @@
                                         <p>Lorem Ipsum is simply dummy text of the printing typesetting.</p>
                                     </div> -->
                                     <div class="hreobannerarea__button__2">
-                                        <a class="default__button" href="#javascript:void(0);">Know More</a>
+                                        <a class="default__button" target="_blank" href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry Now</a>
                                     </div>
 
                                 </div>
@@ -228,13 +123,11 @@
             <div class="swiper-pagination"></div>
         </div>
 
-        <div class="herobannerarea__icon__2">
-            <img loading="lazy" class="herobanner__common__img herobanner__img__1" src="{{asset('assets/img/herobanner/herobanner__1.png')}}" alt="photo">
+        {{-- <div class="herobannerarea__icon__2">
             <img loading="lazy" class="herobanner__common__img herobanner__img__2" src="{{asset('assets/img/herobanner/herobanner__2.png')}}" alt="photo">
             <img loading="lazy" class="herobanner__common__img herobanner__img__3" src="{{asset('assets/img/herobanner/herobanner__3.png')}}" alt="photo">
-            <!--<img loading="lazy"  class="herobanner__common__img herobanner__img__4" src="{{asset('assets/img/herobanner/herobanner__4.png')}}" alt="photo">-->
             <img loading="lazy" class="herobanner__common__img herobanner__img__5" src="{{asset('assets/img/herobanner/herobanner__5.png')}}" alt="photo">
-        </div>
+        </div> --}}
 
     </div>
     <!-- herobannerarea__section__end-->
@@ -249,28 +142,28 @@
                         academic and professional careers.</span>
                 </div>
                 <div class="animate__content__single animate__content__single--2">
-                    <span> <a href="javascript:void(0);">Apply Online</a></span>
+                    <span> <a target="_blank" href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply Online</a></span>
                 </div>
-                <div class="animate__content__single animate__content__single--2">
+                {{-- <div class="animate__content__single animate__content__single--2">
                     <span> <a href="javascript:void(0);">Download Brochure</a></span>
                 </div>
                 <div class="animate__content__single animate__content__single--2">
                     <span> <a href="javascript:void(0);">Courses</a></span>
-                </div>
+                </div> --}}
                 <div class="animate__content__single">
                     <span>ADMISSION OPEN FOR SESSION 2024 - 2025 - Enlight Educational Trust is committed to
                         excellence in education that meets the expectations of the students aspiring for enriching
                         academic and professional careers.</span>
                 </div>
                 <div class="animate__content__single animate__content__single--2">
-                    <span> <a href="javascript:void(0);">Apply Online</a></span>
+                    <span> <a target="_blank" href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply Online</a></span>
                 </div>
-                <div class="animate__content__single animate__content__single--2">
+                {{-- <div class="animate__content__single animate__content__single--2">
                     <span> <a href="javascript:void(0);">Download Brochure</a></span>
                 </div>
                 <div class="animate__content__single animate__content__single--2">
                     <span> <a href="javascript:void(0);">Courses</a></span>
-                </div>
+                </div> --}}
             </div>
         </div>
     </div>
@@ -297,7 +190,7 @@
                             <div class="default__small__button">About Us</div>
                         </div>
                         <div class="aboutarea__headding heading__underline">
-                            <h2>Reliable & Trusted <span>Institutions</span></h2>
+                            <h2>Reliable & Trusted Institutions</h2>
                         </div>
                         <div class="aboutarea__para aboutarea__para__2">
                             <p>The Enlight Group Of Institutions Is Located In A Sprawling Green Campus Which Is
@@ -308,7 +201,7 @@
                                 Tagline Of Enlight Group Of Institutions – Explore, Enrich And Evolve...</p>
                         </div>
                         <div>
-                            <a title="Know more about us" class="default__button" href="about.html">Know More</a>
+                            <a title="Know more about us" class="default__button" href="/AboutElgi">Know More</a>
                         </div>
                         <!-- <div class="aboutarea__para aboutarea__para__2">
                                 <p>Honourable Chairman Of Enlight Group Of Institutions Driven With A Philanthropic Vision And Mission And Believes That Education Should Make Human-Beings Self-Reliant, Selfless And Liberated. Enlight Group Of Institutions Is Driven By Values Like Innovation, Commitment, Passion And Integrity. The Institution Boasts Of Internal Quality Delivery Monitoring Mechanism To Ensure Top-Notch Outcome And Highly Qualified, Committed And Experienced Teaching-Staff, Who Ensure That Every Student Will Go Through The Journey Of Exploring, Enriching And Evolving As Enlightened Human Beings.</p>
@@ -344,7 +237,12 @@
                 <div class="col-xl-12">
                     <div class="section__title text-center">
                         <div class="section__title__button">
-                            <div class="default__small__button">News &amp; Notices</div>
+                            <div class="default__small__button">News &amp; Notices.</div>
+                            <a href='https://enlight.edu.in/public/assets/HOLIDAY-CIRCULAR-JUNE-2024.pdf' target='_blank'>
+<a href='https://enlight.edu.in/public/assets/HOLIDAY-CIRCULAR-JUNE-2024.pdf' target='_blank'>
+<input type='button' style='padding-left:10px;padding-top:10px;padding-right:10px;padding-bottom:10px;margin-left:10px;margin-top:10px;margin-right:10px;margin-bottom:10px;background-color:#bb1b3b;color:#FFFFFF;border-left-width:1px;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;border-color:#d5d5d5;border-radius:5px;cursor:pointer' value='Download Holiday Notification' onMouseOver=this.style.backgroundColor='#FFFFFF';this.style.color='#1b90bb';this.style.borderColor='#d5d5d5' onMouseOut=this.style.backgroundColor='#bb1b3b';this.style.color='#FFFFFF';this.style.borderColor='#d5d5d5' />
+</a>
+</a>
                         </div>
                         <div class="section__title__heading">
                             <h2>Latest News &amp; Notices</h2>
@@ -390,9 +288,9 @@
                         <div class="blogarea__content__wraper">
                             @foreach($notice as $noticeVal)
                             <div class="blogarea__text__wraper">
-                                <div class="blogarea__img">
+                                <div class="blogarea__img new-gif-size">
                                     <div class="blogarea__date">
-                                        <i class="icofont-news"></i>
+                                        <img src="{{asset('assets/img/newgif.gif')}}" alt="new-notice-image">
                                     </div>
                                 </div>
                                 <div class="blogarea__para">
@@ -415,8 +313,8 @@
     <!-- news and notices - end -->
 
     <!-- our__best__institutes - start -->
-    <div class="blogarea__2 sp_top_40 sp_bottom_100">
-        <div class="container">
+    <div class="blogarea__2 sp_top_40 sp_bottom_70">
+        <div class="container-fluid full__width__padding">
             <div class="row">
                 <div class="col-xl-12" data-aos="fade-up">
                     <div class="section__title__2 text-center teamarea__margin">
@@ -430,16 +328,16 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12" data-aos="fade-up">
                     <div class="single__blog__wraper">
                         <div class="single__blog__img">
                             <img loading="lazy" src="{{asset('assets/img/courses/course-5.jpg')}}" alt="Institute">
                         </div>
                         <div class="single__blog__content">
-                            <p>Institute</p>
-                            <h4> <a href="sowrabha.html">Sowrabha Institute of Nursing Sciences</a></h4>
+                            <p>Enlight Group of Institutions</p>
+                            <h4> <a href="sowrabhaIns">Sowrabha Institute of Nursing Sciences</a></h4>
                             <div class="single__blog__bottom__button">
-                                <a href="sowrabha.html">Read More
+                                <a href="sowrabhaIns">Explore More
                                     <i class="icofont-long-arrow-right"></i>
                                 </a>
                             </div>
@@ -447,16 +345,16 @@
                     </div>
                 </div>
 
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12" data-aos="fade-up">
                     <div class="single__blog__wraper">
                         <div class="single__blog__img">
                             <img loading="lazy" src="{{asset('assets/img/courses/course-6.jpg')}}" alt="Institute">
                         </div>
                         <div class="single__blog__content">
-                            <p>Institute</p>
-                            <h4> <a href="enlight-institute.html">Enlight Institute of Para Medical Sciences</a></h4>
+                            <p>Enlight Group of Institutions</p>
+                            <h4> <a href="englightIns">Enlight Institute of Para Medical Sciences</a></h4>
                             <div class="single__blog__bottom__button">
-                                <a href="enlight-institute.html">Read More
+                                <a href="englightIns">Explore More
                                     <i class="icofont-long-arrow-right"></i>
                                 </a>
                             </div>
@@ -464,16 +362,32 @@
                     </div>
                 </div>
 
-                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12" data-aos="fade-up">
                     <div class="single__blog__wraper">
                         <div class="single__blog__img">
                             <img loading="lazy" src="{{asset('assets/img/courses/course-7.jpg')}}" alt="Institute">
                         </div>
                         <div class="single__blog__content">
-                            <p>Institute</p>
-                            <h4> <a href="enlight-school">Enlight School of <br>Nursing</a></h4>
+                            <p>Enlight Group of Institutions</p>
+                            <h4> <a href="enlightSchool">Enlight School of <br>Nursing</a></h4>
                             <div class="single__blog__bottom__button">
-                                <a href="enlight-school">Read More
+                                <a href="enlightSchool">Explore More
+                                    <i class="icofont-long-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12" data-aos="fade-up">
+                    <div class="single__blog__wraper">
+                        <div class="single__blog__img">
+                            <img loading="lazy" src="{{asset('assets/img/courses/course-8.jpg')}}" alt="Institute">
+                        </div>
+                        <div class="single__blog__content">
+                            <p>Enlight Group of Institutions</p>
+                            <h4> <a href="enlightSchool">Sri Shantidhama School <br>of Nursing</a></h4>
+                            <div class="single__blog__bottom__button">
+                                <a href="enlightSchool">Explore More
                                     <i class="icofont-long-arrow-right"></i>
                                 </a>
                             </div>
@@ -486,7 +400,7 @@
     <!-- our__best__institutes - end -->
 
     <!-- .courses__section__end -->
-    <div class="gridarea__2 sp_bottom_100" data-aos="fade-up">
+    <div class="gridarea__2 sp_bottom_70" data-aos="fade-up">
         <div class="container-fluid full__width__padding">
 
             <div class="section__title">
@@ -504,7 +418,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item column__custom__class swiper-slide">
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
-                                    <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-1.jpg')}}" alt="grid"></a>
+                                    <a href="/bScNursing"><img loading="lazy" src="{{asset('assets/img/courses/course-1.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge">Nursing</div>
                                     </div>
@@ -522,16 +436,18 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">B.SC Nursing</a></h3>
-                                    </div>
-                                    <div>
-                                        <p>The course of study shall extend over 4 academic years from the date of
-                                            commencement of his/ her study of ....</p>
+                                    <div class="card-info-height">
+                                        <div class="gridarea__heading">
+                                            <h3><a href="/bScNursing">B.Sc.Nursing</a></h3>
+                                        </div>
+                                        <div class="text-justify">
+                                            <p>The course of study shall extend over 4 academic years from the date of
+                                                commencement of his/ her study of....</p>
+                                        </div>
                                     </div>
                                     <div class="gridarea__bottom">
 
-                                        <a href="javascript:void(0);">
+                                        <a href="/bScNursing">
                                             <div class="gridarea__small__img">
                                                 <div class="gridarea__small__content ms-0">
                                                     <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
@@ -546,7 +462,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item column__custom__class swiper-slide">
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
-                                    <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-2.jpg')}}" alt="grid"></a>
+                                    <a href="/MSCNursing"><img loading="lazy" src="{{asset('assets/img/courses/course-2.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button">
                                         <div class="grid__badge">Nursing</div>
                                     </div>
@@ -564,16 +480,18 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">M.SC Nursing</a></h3>
-                                    </div>
-                                    <div>
-                                        <p>MSc Nursing will prepare Nurses, to improve the quality of nursing
-                                            education and practice, in India. It will build upon....</p>
+                                    <div class="card-info-height">
+                                        <div class="gridarea__heading">
+                                            <h3><a href="/MSCNursing">M.Sc.Nursing</a></h3>
+                                        </div>
+                                        <div class="text-justify">
+                                            <p>MSc Nursing will prepare Nurses, to improve the quality of nursing
+                                                education and practice, in India. It will build upon....</p>
+                                        </div>
                                     </div>
                                     <div class="gridarea__bottom">
 
-                                        <a href="javascript:void(0);">
+                                        <a href="/MSCNursing">
                                             <div class="gridarea__small__img">
                                                 <div class="gridarea__small__content ms-0">
                                                     <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
@@ -588,12 +506,9 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item column__custom__class swiper-slide">
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
-                                    <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-3.jpg')}}" alt="grid"></a>
+                                    <a href="/diploma-in-medical-laboratory-technology-dmlt"><img loading="lazy" src="{{asset('assets/img/courses/course-3.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button">
                                         <div class="grid__badge blue__color">Paramedical</div>
-                                    </div>
-                                    <div class="gridarea__small__icon">
-                                        <a href="#"><i class="icofont-heart-alt"></i></a>
                                     </div>
 
                                 </div>
@@ -609,17 +524,19 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">Diploma in Medical Laboratory Technology
-                                                (DMLT)</a></h3>
-                                    </div>
-                                    <div>
-                                        <p>DMLT is a two years course. A professional with DMLT examines and
-                                            analyzes different body....</p>
+                                    <div class="card-info-height">
+                                        <div class="gridarea__heading">
+                                            <h3><a href="/diploma-in-medical-laboratory-technology-dmlt">Diploma in Medical Laboratory Technology
+                                                    (DMLT)</a></h3>
+                                        </div>
+                                        <div class="text-justify">
+                                            <p>DMLT is a two years course. A professional with DMLT examines and
+                                                analyzes different body....</p>
+                                        </div>
                                     </div>
                                     <div class="gridarea__bottom">
 
-                                        <a href="javascript:void(0);">
+                                        <a href="/diploma-in-medical-laboratory-technology-dmlt">
                                             <div class="gridarea__small__img">
                                                 <div class="gridarea__small__content ms-0">
                                                     <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
@@ -634,7 +551,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item column__custom__class swiper-slide">
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
-                                    <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-4.jpg')}}" alt="grid"></a>
+                                    <a href="/diploma-in-medical-imaging-x-ray-technology-dmxt"><img loading="lazy" src="{{asset('assets/img/courses/course-4.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge blue__color">Paramedical</div>
                                     </div>
@@ -652,19 +569,21 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">Diploma in Medical Imaging/X-Ray
-                                                Technology (DMXT)</a></h3>
-                                    </div>
-                                    <div>
-                                        <p>DMXT is an undergraduate radiology course and is all about how
-                                            electromagnetic radiation....</p>
+                                    <div class="card-info-height">
+                                        <div class="gridarea__heading">
+                                            <h3><a href="/diploma-in-medical-imaging-x-ray-technology-dmxt">Diploma in Medical Imaging/X-Ray
+                                                    Technology (DMXT)</a></h3>
+                                        </div>
+                                        <div class="text-justify">
+                                            <p>DMXT is an undergraduate radiology course and is all about how
+                                                electromagnetic radiation....</p>
+                                        </div>
                                     </div>
                                     <div class="gridarea__bottom">
 
-                                        <a href="javascript:void(0);">
+                                        <a href="/diploma-in-medical-imaging-x-ray-technology-dmxt">
                                             <div class="gridarea__small__img">
-                                                <div class="gridarea__small__content">
+                                                <div class="gridarea__small__content ms-0">
                                                     <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
                                                 </div>
                                             </div>
@@ -677,7 +596,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item column__custom__class swiper-slide">
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
-                                    <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-5.jpg')}}" alt="grid"></a>
+                                    <a href="/PbbscNursing"><img loading="lazy" src="{{asset('assets/img/courses/course-5.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge">Nursing</div>
                                     </div>
@@ -695,16 +614,18 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">PBBSc Nursing</a></h3>
-                                    </div>
-                                    <div>
-                                        <p>The B.Sc Nursing (Post certificate) course of study shall extend over a
-                                            period of 2 academic years from the date....</p>
+                                    <div class="card-info-height">
+                                        <div class="gridarea__heading">
+                                            <h3><a href="/PbbscNursing">PBBSc Nursing</a></h3>
+                                        </div>
+                                        <div class="text-justify">
+                                            <p>The B.Sc Nursing (Post certificate) course of study shall extend over a
+                                                period of 2 academic years from the date....</p>
+                                        </div>
                                     </div>
                                     <div class="gridarea__bottom">
 
-                                        <a href="javascript:void(0);">
+                                        <a href="/PbbscNursing">
                                             <div class="gridarea__small__img">
                                                 <div class="gridarea__small__content ms-0">
                                                     <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
@@ -719,7 +640,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item column__custom__class swiper-slide">
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
-                                    <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-6.jpg')}}" alt="grid"></a>
+                                    <a href="/GnmNursing"><img loading="lazy" src="{{asset('assets/img/courses/course-6.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge">Nursing</div>
                                     </div>
@@ -737,16 +658,18 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">GNM Nursing</a></h3>
-                                    </div>
-                                    <div>
-                                        <p>GNM referred to as General Nursing and Midwifery deals with the education
-                                            of nurses in general health care, nursing, and....</p>
+                                    <div class="card-info-height">
+                                        <div class="gridarea__heading">
+                                            <h3><a href="/GnmNursing">GNM Nursing</a></h3>
+                                        </div>
+                                        <div class="text-justify">
+                                            <p>GNM referred to as General Nursing and Midwifery deals with the education
+                                                of nurses in general health care, nursing, and....</p>
+                                        </div>
                                     </div>
                                     <div class="gridarea__bottom">
 
-                                        <a href="javascript:void(0);">
+                                        <a href="/GnmNursing">
                                             <div class="gridarea__small__img">
                                                 <div class="gridarea__small__content ms-0">
                                                     <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
@@ -761,7 +684,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item column__custom__class swiper-slide">
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
-                                    <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-7.jpg')}}" alt="grid"></a>
+                                    <a href="/diploma-in-medical-operation-technology-dmot"><img loading="lazy" src="{{asset('assets/img/courses/course-7.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge blue__color">Paramedical</div>
                                     </div>
@@ -779,19 +702,21 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">Diploma in Medical Operation Technology
-                                                (DMOT)</a></h3>
-                                    </div>
-                                    <div>
-                                        <p>DMOT is a two-year diploma program designed to create trained and
-                                            qualified professionals ....</p>
+                                    <div class="card-info-height">
+                                        <div class="gridarea__heading">
+                                            <h3><a href="/diploma-in-medical-operation-technology-dmot">Diploma in Medical Operation Technology
+                                                    (DMOT)</a></h3>
+                                        </div>
+                                        <div class="text-justify">
+                                            <p>DMOT is a two-year diploma program designed to create trained and
+                                                qualified professionals ....</p>
+                                        </div>
                                     </div>
                                     <div class="gridarea__bottom">
 
-                                        <a href="javascript:void(0);">
+                                        <a href="/diploma-in-medical-operation-technology-dmot">
                                             <div class="gridarea__small__img">
-                                                <div class="gridarea__small__content">
+                                                <div class="gridarea__small__content ms-0">
                                                     <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
                                                 </div>
                                             </div>
@@ -804,7 +729,7 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 grid-item column__custom__class swiper-slide">
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
-                                    <a href="course-details.html"><img loading="lazy" src="{{asset('assets/img/courses/course-8.jpg')}}" alt="grid"></a>
+                                    <a href="/diploma-in-medical-anesthesia-technology-dot-dat"><img loading="lazy" src="{{asset('assets/img/courses/course-8.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge blue__color">Paramedical</div>
                                     </div>
@@ -822,19 +747,21 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="gridarea__heading">
-                                        <h3><a href="course-details.html">Diploma in Medical Anesthesia Technology
-                                                (DOT/DAT)</a></h3>
-                                    </div>
-                                    <div>
-                                        <p>DOT/DAT leads the students to a comprehensive study of the field of
-                                            anesthetics and its .....</p>
+                                    <div class="card-info-height">
+                                        <div class="gridarea__heading">
+                                            <h3><a href="/diploma-in-medical-anesthesia-technology-dot-dat">Diploma in Medical Anesthesia Technology
+                                                    (DOT/DAT)</a></h3>
+                                        </div>
+                                        <div class="text-justify">
+                                            <p>DOT/DAT leads the students to a comprehensive study of the field of
+                                                anesthetics and its .....</p>
+                                        </div>
                                     </div>
                                     <div class="gridarea__bottom">
 
-                                        <a href="javascript:void(0);">
+                                        <a href="/diploma-in-medical-anesthesia-technology-dot-dat">
                                             <div class="gridarea__small__img">
-                                                <div class="gridarea__small__content">
+                                                <div class="gridarea__small__content ms-0">
                                                     <h6>Apply Now <i class="icofont-long-arrow-right"></i></h6>
                                                 </div>
                                             </div>
@@ -846,11 +773,11 @@
 
                     </div>
 
-                    <div class="slider__controls__wrap slider__controls__arrows">
-                        <div class="swiper-button-next arrow-btn"></div>
-                        <div class="swiper-button-prev arrow-btn"></div>
-                    </div>
-
+                    
+                </div>
+                <div class="slider__controls__wrap slider__controls__arrows">
+                    <div class="swiper-button-next arrow-btn"></div>
+                    <div class="swiper-button-prev arrow-btn"></div>
                 </div>
             </div>
         </div>
@@ -901,7 +828,7 @@
 
 
     <!-- facility__start -->
-    <div class="aboutarea__2 aboutarea__4 sp_bottom_100">
+    <div class="aboutarea__2 aboutarea__4 sp_bottom_70">
         <div class="container">
             <div class="row">
 
@@ -982,7 +909,7 @@
 
 
     <!-- testmonialarea__section__atart -->
-    <div class="testmonialarea sp_top_100 sp_bottom_110">
+    <div class="testmonialarea sp_top_70 sp_bottom_80">
         <div class="container">
             <div class="row" data-aos="fade-up">
                 <div class="section__title text-center">
@@ -990,7 +917,7 @@
                         <div class="default__small__button">Testimonials</div>
                     </div>
                     <div class="section__title__heading heading__underline">
-                        <h2>What <span>Students</span> Say About Us</h2>
+                        <h2>What Students Say About Us</h2>
                     </div>
                 </div>
             </div>
@@ -1146,7 +1073,7 @@
                     <div class="section__title text-center">
 
                         <div class="section__title__heading heading__underline">
-                            <h2><span>Placement</span> In Associated With
+                            <h2>Placement In Associated With
                             </h2>
                         </div>
                     </div>
@@ -1156,37 +1083,49 @@
             <div class="row">
                 <div class="brandarea__wraper" data-aos="fade-up">
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-1.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-1.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-2.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-2.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-3.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-3.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-4.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-4.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-5.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-5.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-6.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-6.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-7.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-7.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-8.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-8.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-9.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-9.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-10.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-10.png')}}" alt="brand" height="90"></a>
                     </div>
                     <div class="brandarea__img">
-                        <a href="#"><img loading="lazy" src="{{asset('assets/img/brand/partner-11.png')}}" alt="brand" height="70"></a>
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-11.png')}}" alt="brand" height="90"></a>
+                    </div>
+                    <div class="brandarea__img">
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-12.png')}}" alt="brand" height="90"></a>
+                    </div>
+                    <div class="brandarea__img">
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-13.png')}}" alt="brand" height="90"></a>
+                    </div>
+                    <div class="brandarea__img">
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-14.png')}}" alt="brand" height="90"></a>
+                    </div>
+                    <div class="brandarea__img">
+                        <a href="javascript:void(0);" class="pe-none"><img loading="lazy" src="{{asset('assets/img/brand/partner-15.png')}}" alt="brand" height="90"></a>
                     </div>
                 </div>
             </div>
@@ -1213,50 +1152,50 @@
                     <div class="single__gallery__img">
                         <img loading="lazy" src="{{asset('assets/img/gallery/gallery-1.jpg')}}" alt="photo">
                         <div class="gallery__icon">
-                            <a class="popup__img" href="img/gallery/gallery-1.jpg')}}"> <i class="icofont-eye-alt"></i></a>
+                            <a class="popup__img" href="{{asset('assets/img/gallery/gallery-1.jpg')}}"> <i class="icofont-eye-alt"></i></a>
                         </div>
                     </div>
                     <div class="single__gallery__img">
                         <img loading="lazy" src="{{asset('assets/img/gallery/gallery-2.jpg')}}" alt="photo">
                         <div class="gallery__icon">
-                            <a class="popup__img" href="img/gallery/gallery-2.jpg')}}"> <i class="icofont-eye-alt"></i></a>
+                            <a class="popup__img" href="{{asset('assets/img/gallery/gallery-2.jpg')}}"> <i class="icofont-eye-alt"></i></a>
                         </div>
                     </div>
                     <div class="single__gallery__img">
                         <img loading="lazy" src="{{asset('assets/img/gallery/gallery-3.jpg')}}" alt="photo">
                         <div class="gallery__icon">
-                            <a class="popup__img" href="img/gallery/gallery-3.jpg')}}"> <i class="icofont-eye-alt"></i></a>
+                            <a class="popup__img" href="{{asset('assets/img/gallery/gallery-3.jpg')}}"> <i class="icofont-eye-alt"></i></a>
                         </div>
                     </div>
                     <div class="single__gallery__img">
                         <img loading="lazy" src="{{asset('assets/img/gallery/gallery-4.jpg')}}" alt="photo">
                         <div class="gallery__icon">
-                            <a class="popup__img" href="img/gallery/gallery-4.jpg')}}"> <i class="icofont-eye-alt"></i></a>
+                            <a class="popup__img" href="{{asset('assets/img/gallery/gallery-4.jpg')}}"> <i class="icofont-eye-alt"></i></a>
                         </div>
                     </div>
                     <div class="single__gallery__img">
                         <img loading="lazy" src="{{asset('assets/img/gallery/gallery-5.jpg')}}" alt="photo">
                         <div class="gallery__icon">
-                            <a class="popup__img" href="img/gallery/gallery-5.jpg')}}"> <i class="icofont-eye-alt"></i></a>
+                            <a class="popup__img" href="{{asset('assets/img/gallery/gallery-5.jpg')}}"> <i class="icofont-eye-alt"></i></a>
                         </div>
                     </div>
                     <div class="single__gallery__img">
                         <img loading="lazy" src="{{asset('assets/img/gallery/gallery-6.jpg')}}" alt="photo">
                         <div class="gallery__icon">
-                            <a class="popup__img" href="img/gallery/gallery-6.jpg')}}"> <i class="icofont-eye-alt"></i></a>
+                            <a class="popup__img" href="{{asset('assets/img/gallery/gallery-6.jpg')}}"> <i class="icofont-eye-alt"></i></a>
                         </div>
                     </div>
 
                     <div class="single__gallery__img">
                         <img loading="lazy" src="{{asset('assets/img/gallery/gallery-7.jpg')}}" alt="photo">
                         <div class="gallery__icon">
-                            <a class="popup__img" href="img/gallery/gallery-7.jpg')}}"> <i class="icofont-eye-alt"></i></a>
+                            <a class="popup__img" href="{{asset('assets/img/gallery/gallery-7.jpg')}}"> <i class="icofont-eye-alt"></i></a>
                         </div>
                     </div>
                     <div class="single__gallery__img">
                         <img loading="lazy" src="{{asset('assets/img/gallery/gallery-8.jpg')}}" alt="photo">
                         <div class="gallery__icon">
-                            <a class="popup__img" href="img/gallery/gallery-8.jpg')}}"> <i class="icofont-eye-alt"></i></a>
+                            <a class="popup__img" href="{{asset('assets/img/gallery/gallery-8.jpg')}}"> <i class="icofont-eye-alt"></i></a>
                         </div>
                     </div>
 

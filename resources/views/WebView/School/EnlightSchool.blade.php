@@ -2,117 +2,10 @@
 
 @section('webContent')
 
-<!-- Mobile Menu Start Here -->
-<div class="mobile-off-canvas-active">
-    <a class="mobile-aside-close"><i class="icofont  icofont-close-line"></i></a>
-    <div class="header-mobile-aside-wrap">
-        <div class="mobile-menu-wrap headerarea">
-
-            <div class="mobile-navigation">
-
-                <nav>
-                    <ul class="mobile-menu">
-
-                        <li>
-                            <a href="/">Home</a>
-                        </li>
-
-                        <li>
-                            <a href="about.html">About</a>
-                        </li>
-
-                        <li class="menu-item-has-children"><a href="javascript:void(0);">Courses</a>
-                            <ul class="dropdown">
-                                <li><a href="nursing.html">Nursing</a></li>
-                                <li><a href="paramedical.html">Paramedical</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="menu-item-has-children"><a href="javascript:void(0);">Admissions</a>
-                            <ul class="dropdown">
-                                <li><a href="javascript:void(0);">Online Admission</a></li>
-                                <li><a href="javascript:void(0);">Admission Cell</a></li>
-                                <li><a href="javascript:void(0);">Application Form</a></li>
-                                <li><a target="_blank" href="Sowrabha-Prospectus.pdf">Download Prospectus</a></li>
-                                <li><a href="javascript:void(0);">Pay Online</a></li>
-                            </ul>
-                        </li>
-
-                        <li class="menu-item-has-children"><a href="javascript:void(0);">Institutions</a>
-                            <ul class="dropdown">
-                                <li>
-                                    <a href="/sowrabhaIns">Sowrabha Institute of Nursing Sciences</a>
-                                </li>
-                                <li>
-                                    <a href="/englightIns">Enlight Institute of Para Medical Sciences</a>
-                                </li>
-                                <li>
-                                    <a href="/enlightSchool">Enlight School of Nursing</a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="menu-item-has-children"><a href="javascript:void(0);">Campus</a>
-                            <ul class="dropdown">
-                                <li><a href="javascript:void(0);">Overview</a>
-                                </li>
-                                <li><a href="javascript:void(0);">Hostel</a>
-                                </li>
-                                <li><a href="javascript:void(0);">Sports</a></li>
-                                <li><a href="gallery.html">Gallery</a></li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            <a href="facilities.html">Facilities</a>
-                        </li>
-
-                        <li>
-                            <a href="scholarship.html">Scholarship</a>
-                        </li>
-
-                        <li>
-                            <a href="contact.html">Contact</a>
-                        </li>
-
-                    </ul>
-                </nav>
-
-            </div>
-
-        </div>
-        <div class="mobile-curr-lang-wrap">
-            <div class="single-mobile-curr-lang">
-                <a class="mobile-account-active" href="#">Logins <i class="icofont-thin-down"></i></a>
-                <div class="lang-curr-dropdown account-dropdown-active">
-                    <ul>
-                        <li><a href="javascript:void(0);">Student Login</a></li>
-                        <li><a href="javascript:void(0);">Online Admission</li>
-                        <li><a href="javascript:void(0);">Enquiry Now</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="mobile-social-wrap">
-            <a class="facebook" target="_blank" href="https://www.facebook.com/enlightgroup2020"><i class="icofont icofont-facebook"></i></a>
-            <a class="twitter" target="_blank" href="https://x.com/of_enlight?t=IIT52UV_BZ1hzOkmeuhHGQ&s=08"><i class="icofont icofont-twitter"></i></a>
-            <a class="instagram" target="_blank" href="https://www.instagram.com/enlight_group?igsh=Z2Foc3c4b2hhOTkz"><i class="icofont icofont-instagram"></i></a>
-        </div>
-    </div>
-</div>
-<!-- Mobile Menu end Here -->
-
-<!-- theme fixed shadow -->
-<div>
-    <div class="theme__shadow__circle"></div>
-    <div class="theme__shadow__circle shadow__right"></div>
-</div>
-<!-- theme fixed shadow -->
-
 <!-- breadcrumbarea__section__start -->
 
-<div class="breadcrumbarea">
-
+<div class="breadcrumbarea" style="background-image: url('{{asset('assets/img/infobanner/infobanner-1.jpg')}}')">
+    <div class="dark-overlay"></div>
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
@@ -122,7 +15,7 @@
                     </div>
                     <div class="breadcrumb__inner">
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li>Enlight School of Nursing</li>
                         </ul>
                     </div>
@@ -132,11 +25,6 @@
 
             </div>
         </div>
-    </div>
-
-    <div class="shape__icon__2">
-        <img loading="lazy" class=" shape__icon__img shape__icon__img__1" src="{{asset('assets/img/herobanner/herobanner__1.png')}}" alt="photo">
-        <img loading="lazy" class=" shape__icon__img shape__icon__img__3" src="{{asset('assets/img/herobanner/herobanner__3.png')}}" alt="photo">
     </div>
 
 </div>
@@ -156,7 +44,7 @@
                 <div class="blog__details__content__wraper">
                     <div class="course__button__wraper" data-aos="fade-up">
                         <div class="course__button">
-                            <a target="_blank" href="Sowrabha-Prospectus.pdf"><i class="icofont-file-document"></i> View
+                            <a target="_blank" href="Sowrabha-Prospectus.pdf"><i class="icofont-file-document"></i> Download
                                 Prospectus</a>
                         </div>
                         <div class="course__date">
@@ -164,24 +52,13 @@
                         </div>
                     </div>
                     <div class="course__details__heading" data-aos="fade-up">
-                        <h3>About this course</h3>
+                        <h3>About Enlight School of Nursing</h3>
                     </div>
-                    <div class="course__details__paragraph" data-aos="fade-up">
-                        <p>The course of study shall extend over 4 academic years from the date of commencement
-                            of his/ her study of the subjects comprising the nursing curriculum to the date of
-                            completion of the examination. Terms and vacations shall be as notified by the
-                            university from time to time.
+                    <div class="course__details__paragraph text-justify" data-aos="fade-up">
+                        <p>The Enlight Education Trust started in the year of Nov 2015 by keeping a broad objective of imparting high-quality education through improving oneself and the nation at large. Through well-organized packages, we are successful in providing standard education to the students. Providing trustworthy services with minimum expense was always our trademark … We worked to enlighten our students’ lives by making valuable contributions to their academic, and non-academic side by providing assistance in their studies, getting better placements, and allover bringing them as useful citizens to the nation. All this we made real only by the coordinated practices, having experienced faculties, and putting 100% loyalty into work.. that’s why we believe together we can succeed
                         </p>
                     </div>
-
-                    <!-- <h4 class="sidebar__title" data-aos="fade-up">Eligibility</h4>
-                    <p>The Minimum education requirement shall be the passing of a B.Sc. Nursing/Post Basic
-                        B.Sc. Nursing with a minimum of 55% aggregate marks.
-                        <br>
-                        Minimum one year of work experience after Basic B.Sc. Nursing. Minimum one year of work
-                        experience before or after Post Basic B.Sc. Nursing
-                    </p> -->
-                    <div class="row">
+                    <div class="row align-items-center">
                         <div class="col-sm-12 col-md-6">
                             <div class="course__details__wraper" data-aos="fade-up">
 
@@ -191,70 +68,18 @@
                                     </div>
                                     <div>
                                         <h5 class="text-primary mb-0">Approvals</h5>
-                                        <p class="mb-0">Indian Nursing Council ( INC ), Karnataka Nursing Council ( KNC )</p>
+                                        <p class="lh-1-5 mb-0">Indian Nursing Council ( INC ), Karnataka Nursing Council ( KNC )</p>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
-                        <!-- <div class="col-sm-12 col-md-3">
-                            <div class="course__details__wraper" data-aos="fade-up">
-
-                                <div class="d-flex align-items-center gap-3">
-                                    <div class="icon-badge">
-                                        <i class="icofont-clock-time"></i>
-                                    </div>
-                                    <div>
-                                        <h5 class="text-primary mb-0">Duration</h5>
-                                        <p class="mb-0">4 Years</p>
-                                    </div>
-                                </div>
-
+                        <div class="col-sm-12 col-md-4">
+                            <div data-aos="fade-up">
+                                <a class="default__button" target="_blank" href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry Now</a>
                             </div>
                         </div>
-                        <div class="col-sm-12 col-md-3"> -->
-                        <!-- <div class="course__details__wraper" data-aos="fade-up">
-
-                                <div class="d-flex align-items-center gap-3">
-                                    <div class="icon-badge">
-                                        <i class="icofont-chair"></i>
-                                    </div>
-                                    <div>
-                                        <h5 class="text-primary mb-0">Seats</h5>
-                                        <p class="mb-0">20</p>
-                                    </div>
-                                </div>
-
-                            </div> 
-                        </div>-->
                     </div>
-
-                    <!-- <div class="course__list__wraper" data-aos="fade-up">
-                        <div class="blog__details__heading__2">
-                            <h5>Documents Required For Admission</h5>
-                        </div>
-                        <div class="aboutarea__list__2 blog__details__list__2" data-aos="fade-up">
-                            <ul>
-                                <li>
-                                    <i class="icofont-check"></i>
-                                    <p>10th / 12th Marksheet</p>
-                                </li>
-                                <li>
-                                    <i class="icofont-check"></i>
-                                    <p>10th / 12th Admit Card</p>
-                                </li>
-                                <li>
-                                    <i class="icofont-check"></i>
-                                    <p>Aadhhar Copy</p>
-                                </li>
-                                <li>
-                                    <i class="icofont-check"></i>
-                                    <p>Migration</p>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div> -->
 
 
                 </div>
@@ -267,16 +92,16 @@
 
                     <div class="blogsidebar__content__wraper__2" data-aos="fade-up">
 
-                        <h4 class="sidebar__title">popular Course</h4>
+                        <h4 class="sidebar__title">Courses Offered</h4>
                         <ul class="course__details__populer__list">
                             <li>
 
                                 <div class="course__details__populer__img">
-                                    <img loading="lazy" src="{{asset('assets/img/courses/msc-nursing.jpg')}}" alt="courses" width="90" height="70">
+                                    <img loading="lazy" src="{{asset('assets/img/courses/bsc-nursing.jpg')}}" alt="courses" width="90" height="70">
                                 </div>
                                 <div class="course__details__populer__content">
                                     <h6>
-                                        <a href="bsc-nursing.html">B.Sc. Nursing</a>
+                                        <a href="/bScNursing">B.Sc. Nursing</a>
                                     </h6>
                                 </div>
                             </li>
@@ -294,7 +119,7 @@
                             <li>
 
                                 <div class="course__details__populer__img">
-                                    <img loading="lazy" src="{{asset('assets/img/courses/msc-nursing.jpg')}}" alt="courses" width="90" height="70">
+                                    <img loading="lazy" src="{{asset('assets/img/courses/course-7.jpg')}}" alt="courses" width="90" height="70">
                                 </div>
                                 <div class="course__details__populer__content">
                                     <h6>
@@ -305,7 +130,7 @@
                             <li>
 
                                 <div class="course__details__populer__img">
-                                    <img loading="lazy" src="{{asset('assets/img/courses/msc-nursing.jpg')}}" alt="courses" width="90" height="70">
+                                    <img loading="lazy" src="{{asset('assets/img/courses/course-8.jpg')}}" alt="courses" width="90" height="70">
                                 </div>
                                 <div class="course__details__populer__content">
                                     <h6>
@@ -317,7 +142,7 @@
 
                         <div class="course__summery__button">
                             <p>Need any help in Admission ?</p>
-                            <a class="default__button default__button--3" href="tel:+91 80955 55703"><i class="icofont-phone"></i> +91 80955 55703</a>
+                            <a class="default__button default__button--3" href="tel:+91 9916073632"><i class="icofont-phone"></i> +91 9916073632</a>
                         </div>
 
                     </div>
