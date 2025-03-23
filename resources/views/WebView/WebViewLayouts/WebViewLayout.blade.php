@@ -96,7 +96,7 @@
                                                 class="icofont-instagram"></i></a>
                                     </li>
                                     <li>
-                                    <a title="Youtube" target="_blank"
+                                        <a title="Youtube" target="_blank"
                                             href="https://www.youtube.com/@enlightgroupofinstitutions8290"><i
                                                 class="icofont-youtube"></i></a>
                                 </ul>
@@ -585,9 +585,9 @@
                                     <li><a title="Instagram"
                                             href="https://www.instagram.com/enlightgroupofinstitutions2024/"><i
                                                 class="icofont-instagram"></i></a></li>
-                                                <li><a title="Youtube"
-                                            href="https://www.instagram.com/enlightgroupofinstitutions2024/"><i
-                                                class="icofont-youtube"></i
+                                    <li><a title="Youtube"
+                                            href="https://www.youtube.com/@enlightgroupofinstitutions8290"><i
+                                                class="icofont-youtube"></i></a></li>
                                 </ul>
                             </div>
                         </div>

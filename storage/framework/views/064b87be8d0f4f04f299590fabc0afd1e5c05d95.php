@@ -1200,4 +1200,4 @@
 
 
 <?php $__env->stopSection(); ?>
-<?php echo $__env->make('WebView.WebViewLayouts.WebViewLayout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\cheth\OneDrive\Desktop\projects\Freelancing work\Enlight\working file\enlight_website\resources\views/WebView/Home/Home.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('WebView.WebViewLayouts.WebViewLayout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\cheth\OneDrive\Desktop\projects\Freelancing work\Enlight\Current-working-file\enlight_website\resources\views/WebView/Home/Home.blade.php ENDPATH**/ ?>
