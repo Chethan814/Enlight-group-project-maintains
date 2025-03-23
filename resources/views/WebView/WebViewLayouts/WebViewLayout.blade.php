@@ -587,7 +587,8 @@
                                                 class="icofont-instagram"></i></a></li>
                                     <li><a title="Youtube"
                                             href="https://www.youtube.com/@enlightgroupofinstitutions8290"><i
-                                                class="icofont-youtube"></i></a></li>
+                                                class="icofont-youtube"></i></a></li> 
+                                                <!-- links updated by chethan on 3/23/25 -->
                                 </ul>
                             </div>
                         </div>
