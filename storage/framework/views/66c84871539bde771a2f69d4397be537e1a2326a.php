@@ -1,10 +1,10 @@
-@extends('WebView.WebViewLayouts.WebViewLayout')
 
-@section('webContent')
+
+<?php $__env->startSection('webContent'); ?>
 
 <!-- breadcrumbarea__section__start -->
 
-<div class="breadcrumbarea" style="background-image: url('{{asset('assets/img/infobanner/infobanner-4.jpg')}}')">
+<div class="breadcrumbarea" style="background-image: url('<?php echo e(asset('assets/img/infobanner/infobanner-4.jpg')); ?>')">
     <div class="dark-overlay"></div>
     <div class="container">
         <div class="row">
@@ -36,7 +36,7 @@
         <div class="row">
             <div class="col-xl-6 col-lg-6" data-aos="fade-up">
                 <div class="aboutarea__5__img" data-tilt="" style="will-change: transform; transform: perspective(2000px) rotateX(0deg) rotateY(0deg);">
-                    <img loading="lazy" src="{{asset('assets/img/Hostel/Hostel-Img-1.jpg')}}" alt="about">
+                    <img loading="lazy" src="<?php echo e(asset('assets/img/Hostel/Hostel-Img-1.jpg')); ?>" alt="about">
                 </div>
             </div>
 
@@ -123,4 +123,5 @@
 <!-- bsc-nursing__end -->
 
 
-@endsection
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('WebView.WebViewLayouts.WebViewLayout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\cheth\OneDrive\Desktop\projects\Freelancing work\Enlight\Current-working-file\enlight_website\resources\views/WebView/Hostel/Hostel.blade.php ENDPATH**/ ?>

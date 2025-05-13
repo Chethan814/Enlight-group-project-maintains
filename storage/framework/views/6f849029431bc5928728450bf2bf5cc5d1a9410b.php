@@ -169,7 +169,7 @@
                                                         Admission</a></li>
                                                 <li><a href="/download-pdf">Prospestus Download</a>
                                                 </li>
-                                                <li><a target="_blank" href="javascript:void(0);">Application Form</a>
+                                                <li><a target="_blank" href="https://enlight.edu.in/public/assets/PDF/Enlight%20Final%202025.pdf">Application Form</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -588,6 +588,7 @@
                                     <li><a title="Youtube"
                                             href="https://www.youtube.com/@enlightgroupofinstitutions8290"><i
                                                 class="icofont-youtube"></i></a></li>
+                                    <!-- links updated by chethan on 3/23/25 -->
                                 </ul>
                             </div>
                         </div>
