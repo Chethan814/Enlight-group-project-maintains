@@ -346,7 +346,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12" data-aos="fade-up">
                     <div class="single__blog__wraper">
                         <div class="single__blog__img">
-                            <img loading="lazy" src="<?php echo e(asset('assets/img/courses/course-5.jpg')); ?>" alt="Institute">
+                            <img loading="lazy" src="<?php echo e(asset('assets/img/courses/updated-image/course-4.jpg')); ?>" alt="Institute">
                         </div>
                         <div class="single__blog__content">
                             <p>Enlight Group of Institutions</p>
