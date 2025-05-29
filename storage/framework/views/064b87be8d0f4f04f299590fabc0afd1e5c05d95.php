@@ -176,7 +176,7 @@
                     <div class="about__right__wraper__2">
                         <div class="educationarea__img" data-tilt>
                             <img loading="lazy" class="aboutarea__2__img__1" width="520vw" height="460vh"
-                                src="<?php echo e(asset('assets/img/about/Updated-images/Enlight-Clg.jpg')); ?>" alt="College photo">
+                                src="<?php echo e(asset('assets/img/about/Updated-images/Enlight-College.jpg')); ?>" alt="College photo">
                             <img loading="lazy" class="aboutarea__2__img__2" width="250vw" 
                                 src="<?php echo e(asset('assets/img/about/Updated-images/Enlight-Chairman.jpg')); ?>" alt="Enlight-Chairman photo">
                             <img loading="lazy" class="aboutarea__2__img__3" src="<?php echo e(asset('assets/img/about/about_4.png')); ?>"
