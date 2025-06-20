@@ -10,7 +10,7 @@
             <div class="herobannerarea__slider__wrap swiper-wrapper">
 
                 <div class="swiper-slide herobannerarea__single__slider"
-                    style="background: url(assets/img/herobanner/bg-1.jpg);">
+                    style="background: url(assets/img/1-updated-images/Hero-Section/Hero-section-slider-1.jpg);">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12" data-aos="fade-up">
@@ -43,7 +43,7 @@
                 </div>
 
                 <div class="swiper-slide herobannerarea__single__slider"
-                    style="background: url(assets/img/herobanner/bg-2.jpg);">
+                    style="background: url(assets/img/1-updated-images/Hero-Section/Hero-section-slider-2.jpg);">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12" data-aos="fade-up">
@@ -74,7 +74,7 @@
                 </div>
 
                 <div class="swiper-slide herobannerarea__single__slider"
-                    style="background: url(assets/img/herobanner/bg-3.jpg);">
+                    style="background: url(assets/img/1-updated-images/Hero-Section/Hero-section-slider-3.jpg);">
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12 col-12" data-aos="fade-up">
@@ -452,7 +452,7 @@
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
                                     <a href="/bScNursing"><img loading="lazy"
-                                            src="{{asset('assets/img/courses/course-1.jpg')}}" alt="grid"></a>
+                                            src="{{asset('assets/img/1-updated-images/Courses/Nursing-card-2.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge">Nursing</div>
                                     </div>
@@ -498,7 +498,7 @@
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
                                     <a href="/MSCNursing"><img loading="lazy"
-                                            src="{{asset('assets/img/courses/course-2.jpg')}}" alt="grid"></a>
+                                            src="{{asset('assets/img/1-updated-images/Courses/Nursing-card-1.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button">
                                         <div class="grid__badge">Nursing</div>
                                     </div>
@@ -544,7 +544,7 @@
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
                                     <a href="/diploma-in-medical-laboratory-technology-dmlt"><img loading="lazy"
-                                            src="{{asset('assets/img/courses/course-3.jpg')}}" alt="grid"></a>
+                                            src="{{asset('assets/img/1-updated-images/Courses/Paramedical-card-2.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button">
                                         <div class="grid__badge blue__color">Paramedical</div>
                                     </div>
@@ -591,7 +591,7 @@
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
                                     <a href="/diploma-in-medical-imaging-x-ray-technology-dmxt"><img loading="lazy"
-                                            src="{{asset('assets/img/courses/course-4.jpg')}}" alt="grid"></a>
+                                            src="{{asset('assets/img/1-updated-images/Courses/Paramedical-card-1.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge blue__color">Paramedical</div>
                                     </div>
@@ -639,7 +639,7 @@
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
                                     <a href="/PbbscNursing"><img loading="lazy"
-                                            src="{{asset('assets/img/courses/course-5.jpg')}}" alt="grid"></a>
+                                            src="{{asset('assets/img/1-updated-images/Courses/Nursing-card-3.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge">Nursing</div>
                                     </div>
@@ -685,7 +685,7 @@
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
                                     <a href="/GnmNursing"><img loading="lazy"
-                                            src="{{asset('assets/img/courses/course-6.jpg')}}" alt="grid"></a>
+                                            src="{{asset('assets/img/1-updated-images/Courses/Paramedical-card-1.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge">Nursing</div>
                                     </div>
@@ -731,7 +731,7 @@
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
                                     <a href="/diploma-in-medical-operation-technology-dmot"><img loading="lazy"
-                                            src="{{asset('assets/img/courses/course-7.jpg')}}" alt="grid"></a>
+                                            src="{{asset('assets/img/1-updated-images/Hero-Section/Hero-section-slider-2.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge blue__color">Paramedical</div>
                                     </div>
@@ -779,7 +779,7 @@
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
                                     <a href="/diploma-in-medical-anesthesia-technology-dot-dat"><img loading="lazy"
-                                            src="{{asset('assets/img/courses/course-8.jpg')}}" alt="grid"></a>
+                                            src="{{asset('assets/img/1-updated-images/Courses/Praramedical-card-3.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge blue__color">Paramedical</div>
                                     </div>
