@@ -32,7 +32,7 @@
                                             </div> -->
                                     <div class="hreobannerarea__button__2">
                                         <a class="default__button" target="_blank"
-                                            href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry
+                                            href="https://enlight-enquiry-form.vercel.app">Enquiry
                                             Now</a>
                                     </div>
 
@@ -63,7 +63,7 @@
 
                                     <div class="hreobannerarea__button__2">
                                         <a class="default__button" target="_blank"
-                                            href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry
+                                            href="https://enlight-enquiry-form.vercel.app">Enquiry
                                             Now</a>
                                     </div>
 
@@ -96,7 +96,7 @@
                                             </div> -->
                                     <div class="hreobannerarea__button__2">
                                         <a class="default__button" target="_blank"
-                                            href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry
+                                            href="https://enlight-enquiry-form.vercel.app">Enquiry
                                             Now</a>
                                     </div>
 
@@ -155,7 +155,7 @@
                 </div>
                 <div class="animate__content__single animate__content__single--2">
                     <span> <a target="_blank"
-                            href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply
+                            href="https://enlight-admission-form.vercel.app">Apply
                             Online</a></span>
                 </div>
                 {{-- <div class="animate__content__single animate__content__single--2">
@@ -171,7 +171,7 @@
                 </div>
                 <div class="animate__content__single animate__content__single--2">
                     <span> <a target="_blank"
-                            href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply
+                            href="https://enlight-admission-form.vercel.app">Apply
                             Online</a></span>
                 </div>
                 {{-- <div class="animate__content__single animate__content__single--2">
@@ -779,7 +779,7 @@
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
                                     <a href="/diploma-in-medical-anesthesia-technology-dot-dat"><img loading="lazy"
-                                            src="{{asset('assets/img/1-updated-images/Courses/Praramedical-card-3.jpg')}}" alt="grid"></a>
+                                            src="{{asset('assets/img/1-updated-images/Courses/Paramedical-card-3.jpg')}}" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge blue__color">Paramedical</div>
                                     </div>

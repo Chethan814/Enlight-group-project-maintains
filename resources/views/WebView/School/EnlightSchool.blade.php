@@ -76,7 +76,7 @@
                         </div>
                         <div class="col-sm-12 col-md-4">
                             <div data-aos="fade-up">
-                                <a class="default__button" target="_blank" href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry Now</a>
+                                <a class="default__button" target="_blank" href="https://enlight-enquiry-form.vercel.app">Enquiry Now</a>
                             </div>
                         </div>
                     </div>

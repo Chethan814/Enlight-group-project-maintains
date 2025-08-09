@@ -96,10 +96,10 @@
                             <div class="col-sm-12 col-md-12">
                                 <div class="mb-3" data-aos="fade-up">
                                     <a class="default__button me-2" target="_blank"
-                                        href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply
+                                        href="https://enlight-admission-form.vercel.app/">Apply
                                         Now</a>
                                     <a class="default__button" target="_blank"
-                                        href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry
+                                        href="https://enlight-enquiry-form.vercel.app">Enquiry
                                         Now</a>
                                 </div>
                             </div>

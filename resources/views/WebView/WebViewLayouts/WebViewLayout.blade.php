@@ -67,11 +67,11 @@
                                                     class="icofont-user-alt-1"></i>Student Login</a><span
                                                 class="text-white ms-1">|</span>
                                             <a target="_blank" title="Go for Online Admission"
-                                                href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions"
+                                                href="https://enlight-admission-form.vercel.app"
                                                 class="default__small__button__white mb-0 rounded p-1"><i
                                                     class="icofont-file-document me-1"></i>Online Admission</a><span
                                                 class="text-white ms-1">|</span>
-                                            <a href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions"
+                                            <a href="https://enlight-enquiry-form.vercel.app"
                                                 title="Go to Enquiry Now" target="_blank"
                                                 class="default__small__button__white mb-0 rounded p-1">Enquiry Now</a>
                                         </div>
@@ -162,10 +162,10 @@
                                             </a>
                                             <ul class="headerarea__submenu">
                                                 <li><a target="_blank"
-                                                        href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry
+                                                        href="https://enlight-enquiry-form.vercel.app">Enquiry
                                                         Now</a></li>
                                                 <li><a target="_blank"
-                                                        href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Online
+                                                        href="">Online
                                                         Admission</a></li>
                                                 <li><a href="/download-pdf">Prospestus Download</a>
                                                 </li>
@@ -285,10 +285,10 @@
                                 <li class="menu-item-has-children"><a href="javascript:void(0);">Admission</a>
                                     <ul class="dropdown">
                                         <li><a target="_blank"
-                                                href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry
+                                                href="https://enlight-enquiry-form.vercel.app">Enquiry
                                                 Now</a></li>
                                         <li><a target="_blank"
-                                                href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Online
+                                                href="">Online
                                                 Admission</a></li>
                                         <li><a href="/download-pdf">Prospestus Download</a></li>
                                         <li><a target="_blank" href="javascript:void(0);">Application Form</a></li>
@@ -341,9 +341,9 @@
                             <ul>
                                 <li><a href="https://enlight.eduwego.in/student-login">Student Login</a></li>
                                 <li><a
-                                        href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Online
+                                        href="">Online
                                         Admission</li>
-                                <li><a href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions"
+                                <li><a href="https://enlight-enquiry-form.vercel.app"
                                         target="_blank">Enquiry Now</a></li>
                             </ul>
                         </div>
@@ -391,7 +391,7 @@
                                     <form action="#">
                                         <div class="footerarea__newsletter__button text-sm-end text-start">
                                             <a target="_blank"
-                                                href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions"
+                                                href=""
                                                 type="submit" class="subscribe__btn">Apply
                                                 Now</a>
                                         </div>

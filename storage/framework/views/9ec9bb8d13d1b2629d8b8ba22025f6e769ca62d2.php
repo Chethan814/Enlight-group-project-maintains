@@ -37,10 +37,14 @@
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12" data-aos="fade-up">
                 <div class="about__right__wraper__2">
                     <div class="educationarea__img" data-tilt>
-                        <img loading="lazy" class="aboutarea__2__img__1" src="<?php echo e(asset('assets/img/about/institute-1.jpg')); ?>" alt="education">
-                        <img loading="lazy" class="aboutarea__2__img__2" src="<?php echo e(asset('assets/img/about/institute-2.jpg')); ?>" alt="education">
-                        <img loading="lazy" class="aboutarea__2__img__3" src="<?php echo e(asset('assets/img/about/about_4.png')); ?>" alt="education">
-                        <img loading="lazy" class="aboutarea__2__img__4" src="<?php echo e(asset('assets/img/about/about_11.png')); ?>" alt="education">
+                         <img loading="lazy" class="aboutarea__2__img__1" width="520vw" height="460vh"
+                                src="<?php echo e(asset('assets/img/about/Updated-images/Enlight-College.jpg')); ?>" alt="College photo">
+                            <img loading="lazy" class="aboutarea__2__img__2" width="250vw" 
+                                src="<?php echo e(asset('assets/img/about/Updated-images/Enlight-Chairman.jpg')); ?>" alt="Enlight-Chairman photo">
+                            <img loading="lazy" class="aboutarea__2__img__3" src="<?php echo e(asset('assets/img/about/about_4.png')); ?>"
+                                alt="education">
+                            <img loading="lazy" class="aboutarea__2__img__4"
+                                src="<?php echo e(asset('assets/img/about/about_11.png')); ?>" alt="education">
                     </div>
                 </div>
             </div>
