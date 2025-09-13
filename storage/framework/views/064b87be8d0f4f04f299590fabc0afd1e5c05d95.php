@@ -1,5 +1,3 @@
-
-
 <?php $__env->startSection('webContent'); ?>
 
     <!-- herobannerarea__section__start -->
@@ -32,7 +30,7 @@
                                             </div> -->
                                     <div class="hreobannerarea__button__2">
                                         <a class="default__button" target="_blank"
-                                            href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry
+                                            href="https://enlight-enquiry-form.vercel.app">Enquiry
                                             Now</a>
                                     </div>
 
@@ -63,7 +61,7 @@
 
                                     <div class="hreobannerarea__button__2">
                                         <a class="default__button" target="_blank"
-                                            href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry
+                                            href="https://enlight-enquiry-form.vercel.app">Enquiry
                                             Now</a>
                                     </div>
 
@@ -96,7 +94,7 @@
                                             </div> -->
                                     <div class="hreobannerarea__button__2">
                                         <a class="default__button" target="_blank"
-                                            href="https://enlight.eduwego.in/student-enquiry/enlight-group-of-institutions">Enquiry
+                                            href="https://enlight-enquiry-form.vercel.app">Enquiry
                                             Now</a>
                                     </div>
 
@@ -148,7 +146,7 @@
                 </div>
                 <div class="animate__content__single animate__content__single--2">
                     <span> <a target="_blank"
-                            href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply
+                            href="https://enlight-admission-form.vercel.app">Apply
                             Online</a></span>
                 </div>
                 
@@ -159,7 +157,7 @@
                 </div>
                 <div class="animate__content__single animate__content__single--2">
                     <span> <a target="_blank"
-                            href="https://enlight.eduwego.in/online-admission/enlight-group-of-institutions">Apply
+                            href="https://enlight-admission-form.vercel.app">Apply
                             Online</a></span>
                 </div>
                 
@@ -177,7 +175,7 @@
                         <div class="educationarea__img" data-tilt>
                             <img loading="lazy" class="aboutarea__2__img__1" width="520vw" height="460vh"
                                 src="<?php echo e(asset('assets/img/about/Updated-images/Enlight-College.jpg')); ?>" alt="College photo">
-                            <img loading="lazy" class="aboutarea__2__img__2" width="250vw" 
+                            <img loading="lazy" class="aboutarea__2__img__2" width="250vw"
                                 src="<?php echo e(asset('assets/img/about/Updated-images/Enlight-Chairman.jpg')); ?>" alt="Enlight-Chairman photo">
                             <img loading="lazy" class="aboutarea__2__img__3" src="<?php echo e(asset('assets/img/about/about_4.png')); ?>"
                                 alt="education">
@@ -764,7 +762,7 @@
                             <div class="gridarea__wraper">
                                 <div class="gridarea__img">
                                     <a href="/diploma-in-medical-anesthesia-technology-dot-dat"><img loading="lazy"
-                                            src="<?php echo e(asset('assets/img/1-updated-images/Courses/Praramedical-card-3.jpg')); ?>" alt="grid"></a>
+                                            src="<?php echo e(asset('assets/img/1-updated-images/Courses/Paramedical-card-3.jpg')); ?>" alt="grid"></a>
                                     <div class="gridarea__small__button gridarea__small__button__1">
                                         <div class="grid__badge blue__color">Paramedical</div>
                                     </div>
@@ -1283,4 +1281,5 @@
 
 
 <?php $__env->stopSection(); ?>
+
 <?php echo $__env->make('WebView.WebViewLayouts.WebViewLayout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\cheth\OneDrive\Desktop\projects\Freelancing work\Enlight\Current-working-file\enlight_website\resources\views/WebView/Home/Home.blade.php ENDPATH**/ ?>

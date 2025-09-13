@@ -109,145 +109,145 @@
         <!-- topbar__section__end -->
 
 
-        <!-- headar section start -->
-        <header>
-            <div class="headerarea headerarea__3 header__sticky header__area">
-                <div class="container desktop__menu__wrapper">
-                    <div class="row">
-                        <div class="col-xl-2 col-lg-2 col-md-6">
-                            <div class="headerarea__left">
-                                <div class="headerarea__left__logo">
+            <!-- headar section start -->
+            <header>
+                <div class="headerarea headerarea__3 header__sticky header__area">
+                    <div class="container desktop__menu__wrapper">
+                        <div class="row">
+                            <div class="col-xl-2 col-lg-2 col-md-6">
+                                <div class="headerarea__left">
+                                    <div class="headerarea__left__logo">
 
-                                    <a href="/"><img loading="lazy"
-                                            src="{{ asset('assets/img/logo/enlight-group-logo.png') }}" alt="logo"
-                                            class="main-logo"></a>
+                                        <a href="/"><img loading="lazy"
+                                                src="{{ asset('assets/img/logo/enlight-group-logo.png') }}" alt="logo"
+                                                class="main-logo"></a>
+                                    </div>
+
                                 </div>
-
                             </div>
-                        </div>
-                        <div class="col-xl-10 col-lg-10 main_menu_wrap">
-                            <div class="headerarea__main__menu">
-                                <nav>
-                                    <ul>
+                            <div class="col-xl-10 col-lg-10 main_menu_wrap">
+                                <div class="headerarea__main__menu">
+                                    <nav>
+                                        <ul>
 
-                                        <li>
-                                            <a href="/">Home</a>
-                                        </li>
+                                            <li>
+                                                <a href="/">Home</a>
+                                            </li>
 
-                                        <li>
-                                            <a class="headerarea__has__dropdown" href="javascript:void(0);">About Us
-                                                <i class="icofont-rounded-down"></i>
-                                            </a>
-                                            <ul class="headerarea__submenu">
-                                                <li><a href="/AboutElgi">About ELGI</a></li>
-                                                <li><a href="/DirectorMessage">Director's Message</a></li>
-                                                <li><a href="/ChairmanMessage">Chairman's Message</a></li>
-                                                <li><a href="/PrincipalDesk">Principal Desk</a></li>
-                                            </ul>
-                                        </li>
+                                            <li>
+                                                <a class="headerarea__has__dropdown" href="javascript:void(0);">About Us
+                                                    <i class="icofont-rounded-down"></i>
+                                                </a>
+                                                <ul class="headerarea__submenu">
+                                                    <li><a href="/AboutElgi">About ELGI</a></li>
+                                                    <li><a href="/DirectorMessage">Director's Message</a></li>
+                                                    <li><a href="/ChairmanMessage">Chairman's Message</a></li>
+                                                    <li><a href="/PrincipalDesk">Principal Desk</a></li>
+                                                </ul>
+                                            </li>
 
-                                        <li>
-                                            <a class="headerarea__has__dropdown" href="javascript:void(0);">Courses
-                                                <i class="icofont-rounded-down"></i>
-                                            </a>
-                                            <ul class="headerarea__submenu">
-                                                <li><a href="/nursing">Nursing</a></li>
-                                                <li><a href="/paramedicals">Paramedical</a></li>
-                                            </ul>
-                                        </li>
+                                            <li>
+                                                <a class="headerarea__has__dropdown" href="javascript:void(0);">Courses
+                                                    <i class="icofont-rounded-down"></i>
+                                                </a>
+                                                <ul class="headerarea__submenu">
+                                                    <li><a href="/nursing">Nursing</a></li>
+                                                    <li><a href="/paramedicals">Paramedical</a></li>
+                                                </ul>
+                                            </li>
 
-                                        <li>
-                                            <a class="headerarea__has__dropdown" href="javascript:void(0);">Admission
-                                                <i class="icofont-rounded-down"></i>
-                                            </a>
-                                            <ul class="headerarea__submenu">
-                                                <li><a target="_blank"
-                                                        href="https://enlight-enquiry-form.vercel.app">Enquiry
-                                                        Now</a></li>
-                                                <li><a target="_blank"
-                                                        href="">Online
-                                                        Admission</a></li>
-                                                <li><a href="/download-pdf">Prospestus Download</a>
-                                                </li>
-                                                <li><a target="_blank" href="https://enlight.edu.in/public/assets/PDF/Enlight%20Final%202025.pdf">Application Form</a>
-                                                </li>
-                                            </ul>
-                                        </li>
+                                            <li>
+                                                <a class="headerarea__has__dropdown" href="javascript:void(0);">Admission
+                                                    <i class="icofont-rounded-down"></i>
+                                                </a>
+                                                <ul class="headerarea__submenu">
+                                                    <li><a target="_blank"
+                                                            href="https://enlight-enquiry-form.vercel.app">Enquiry
+                                                            Now</a></li>
+                                                    <li><a target="_blank"
+                                                            href="">Online
+                                                            Admission</a></li>
+                                                    <li><a href="/download-pdf">Prospestus Download</a>
+                                                    </li>
+                                                    <li><a target="_blank" href="https://enlight.edu.in/public/assets/PDF/Enlight%20Final%202025.pdf">Application Form</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
 
-                                        <li>
-                                            <a class="headerarea__has__dropdown"
-                                                href="javascript:void(0);">Institutions
-                                                <i class="icofont-rounded-down"></i>
-                                            </a>
-                                            <ul class="headerarea__submenu">
-                                                <li><a href="/sowrabha-institute-of-nursing-sciences">Sowrabha
-                                                        Institute of Nursing Sciences</a>
-                                                </li>
-                                                <li><a href="/enlight-institute-of-paramedical-sciences">Enlight
-                                                        Institute of Para Medical Sciences</a>
-                                                </li>
-                                                <li><a href="/enlight-school-of-nursing">Enlight School of Nursing</a>
-                                                </li>
-                                                <li><a href="/sri-shantidhama-school-of-nursing">Sri Shantidhama School
-                                                        of Nursing</a></li>
-                                            </ul>
-                                        </li>
+                                            <li>
+                                                <a class="headerarea__has__dropdown"
+                                                    href="javascript:void(0);">Institutions
+                                                    <i class="icofont-rounded-down"></i>
+                                                </a>
+                                                <ul class="headerarea__submenu">
+                                                    <li><a href="/sowrabha-institute-of-nursing-sciences">Sowrabha
+                                                            Institute of Nursing Sciences</a>
+                                                    </li>
+                                                    <li><a href="/enlight-institute-of-paramedical-sciences">Enlight
+                                                            Institute of Para Medical Sciences</a>
+                                                    </li>
+                                                    <li><a href="/enlight-school-of-nursing">Enlight School of Nursing</a>
+                                                    </li>
+                                                    <li><a href="/sri-shantidhama-school-of-nursing">Sri Shantidhama School
+                                                            of Nursing</a></li>
+                                                </ul>
+                                            </li>
 
-                                        <li>
-                                            <a class="headerarea__has__dropdown" href="javascript:void(0);">Campus
-                                                <i class="icofont-rounded-down"></i>
-                                            </a>
-                                            <ul class="headerarea__submenu">
-                                                <!-- <li><a href="javascript:void(0);">Overview</a>
-                                                </li> -->
-                                                <li><a href="/Hostel">Hostel</a>
-                                                </li>
-                                                <!-- <li><a href="javascript:void(0);">Sports</a></li> -->
-                                                <li><a href="/gallery">Gallery</a></li>
-                                            </ul>
-                                        </li>
+                                            <li>
+                                                <a class="headerarea__has__dropdown" href="javascript:void(0);">Campus
+                                                    <i class="icofont-rounded-down"></i>
+                                                </a>
+                                                <ul class="headerarea__submenu">
+                                                    <!-- <li><a href="javascript:void(0);">Overview</a>
+                                                    </li> -->
+                                                    <li><a href="/Hostel">Hostel</a>
+                                                    </li>
+                                                    <!-- <li><a href="javascript:void(0);">Sports</a></li> -->
+                                                    <li><a href="/gallery">Gallery</a></li>
+                                                </ul>
+                                            </li>
 
-                                        <li>
-                                            <a href="/facilities">Facilities</a>
-                                        </li>
+                                            <li>
+                                                <a href="/facilities">Facilities</a>
+                                            </li>
 
-                                        <li>
-                                            <a href="/contacts">Contact</a>
-                                        </li>
+                                            <li>
+                                                <a href="/contacts">Contact</a>
+                                            </li>
 
 
-                                    </ul>
-                                </nav>
+                                        </ul>
+                                    </nav>
+                                </div>
                             </div>
+
                         </div>
 
                     </div>
 
-                </div>
 
-
-                <div class="container-fluid mob_menu_wrapper">
-                    <div class="row align-items-center">
-                        <div class="col-6">
-                            <div class="mobile-logo">
-                                <a class="logo__dark" href="#"><img loading="lazy"
-                                        src="{{ asset('assets/img/logo/enlight-group-logo.png') }}" height="60"
-                                        alt="logo"></a>
+                    <div class="container-fluid mob_menu_wrapper">
+                        <div class="row align-items-center">
+                            <div class="col-6">
+                                <div class="mobile-logo">
+                                    <a class="logo__dark" href="#"><img loading="lazy"
+                                            src="{{ asset('assets/img/logo/enlight-group-logo.png') }}" height="60"
+                                            alt="logo"></a>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="header-right-wrap">
-                                <div class="mobile-off-canvas">
-                                    <a class="mobile-aside-button" href="#"><i
-                                            class="icofont-navigation-menu"></i></a>
+                            <div class="col-6">
+                                <div class="header-right-wrap">
+                                    <div class="mobile-off-canvas">
+                                        <a class="mobile-aside-button" href="#"><i
+                                                class="icofont-navigation-menu"></i></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </header>
-        <!-- header section end -->
+            </header>
+            <!-- header section end -->
 
         <!-- Mobile Menu Start Here -->
         <div class="mobile-off-canvas-active">

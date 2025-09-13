@@ -194,7 +194,7 @@
                         <div class="educationarea__img" data-tilt>
                             <img loading="lazy" class="aboutarea__2__img__1" width="520vw" height="460vh"
                                 src="{{asset('assets/img/about/Updated-images/Enlight-College.jpg')}}" alt="College photo">
-                            <img loading="lazy" class="aboutarea__2__img__2" width="250vw" 
+                            <img loading="lazy" class="aboutarea__2__img__2" width="250vw"
                                 src="{{asset('assets/img/about/Updated-images/Enlight-Chairman.jpg')}}" alt="Enlight-Chairman photo">
                             <img loading="lazy" class="aboutarea__2__img__3" src="{{asset('assets/img/about/about_4.png')}}"
                                 alt="education">
